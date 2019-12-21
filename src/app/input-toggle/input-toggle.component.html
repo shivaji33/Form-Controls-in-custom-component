@@ -1,0 +1,11 @@
+<label class="input-toggle">
+  <input type="checkbox" 
+        [required]="required"
+	       [disabled]="disabled"
+	       [placeholder]="placeholder"
+	       [(ngModel)]="toggle"
+	       [ngModelOptions]="{standalone: true}"
+	       (change)="onChange()"
+   />
+  <span></span>
+</label>
